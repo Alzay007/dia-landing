@@ -6,14 +6,14 @@ const swiper = new Swiper('.swiper', {
   modules: [Navigation],
 
   navigation: {
-    nextEl: '.slider__arrow-next',
-    prevEl: '.slider__arrow-prev',
+    nextEl: '.swiper-arrow-next',
+    prevEl: '.swiper-arrow-prev',
   },
 });
 
 const form = document.querySelector('.form');
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit', function (event) {
   event.preventDefault();
 
   form.reset();
